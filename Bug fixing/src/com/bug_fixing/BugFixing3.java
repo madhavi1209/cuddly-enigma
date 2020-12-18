@@ -9,6 +9,7 @@ public class BugFixing3 {
 		int n = A.length;
 		Arrays.sort(A);
 		for (int i = 0; i < n - 1; i++) {
+			System.out.println("value of i : "+i);
 			if (A[i] + 1 < A[i + 1])
 				return false;
 		}
