@@ -42,8 +42,9 @@ public class BugFixing2 {
 		//int[] B = {2,2,2,2};//2
 		
 		/*NEGATIVE MATCH*/
-		//int[] A = {2,-3,6,7};
-		//int[] B = {1,1,-3,8};//-3
+		int[] A1 = {2,-3,6,7};
+		int[] B1 = {1,1,-3,8};//-3
+		System.out.println(new BugFixing2().solution(A1, B1));
 		
 		int[] A = {22,35,690873,73445};
 		int[] B = {11,1,35,690873};
