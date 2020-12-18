@@ -29,7 +29,9 @@ public class BugFixing4 {
 		if (A[i] == 1 && k + 1 >= maximal) {   
 			result = 0;
 		}
-			System.out.println(result);
+
+			System.out.println("Result :"+result);
+
 		return result;
 	}
 	
