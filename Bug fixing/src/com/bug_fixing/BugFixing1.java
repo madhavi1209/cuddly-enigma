@@ -26,11 +26,11 @@ public class BugFixing1 {
    
    public static void main(String[] args) {
     System.out.println("Char is : "+new BugFixing1().solution("apple"));
-   	//System.out.println("Char is : "+new BugFixing1().solution("hello")); 
-    //System.out.println("Char is : "+new BugFixing1().solution("parameter"));
-    //System.out.println("Char is : "+new BugFixing1().solution(""));
-    //System.out.println("Char is : "+new BugFixing1().solution("heeellooo"));
-    //System.out.println("Char is : "+new BugFixing1().solution("abcd"));
+   	System.out.println("Char is : "+new BugFixing1().solution("hello")); 
+    System.out.println("Char is : "+new BugFixing1().solution("parameter"));
+    System.out.println("Char is : "+new BugFixing1().solution(""));
+    System.out.println("Char is : "+new BugFixing1().solution("heeellooo"));
+    System.out.println("Char is : "+new BugFixing1().solution("abcd"));
    	
    }
 }
