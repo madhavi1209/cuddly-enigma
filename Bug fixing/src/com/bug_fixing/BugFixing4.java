@@ -10,7 +10,9 @@ public class BugFixing4 {
 		int i = n - 1;     
 		int result = -1;
 		int k = 0, maximal = 0;
-		System.out.println("I am adding a sysout statement here");
+
+		System.out.println("hello hello..how you doin?");
+
 		while (i > 0) {
 			if (A[i] == 1) {
 				k = k + 1;
