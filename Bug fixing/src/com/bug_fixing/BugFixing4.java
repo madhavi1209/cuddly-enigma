@@ -11,7 +11,7 @@ public class BugFixing4 {
 		int result = -1;
 		int k = 0, maximal = 0;
 
-		System.out.println("hello hello..how you doin?");
+		System.out.println("hello hello..how you doin broo?");
 
 		while (i > 0) {
 			if (A[i] == 1) {
