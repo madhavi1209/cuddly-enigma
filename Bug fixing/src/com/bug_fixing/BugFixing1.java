@@ -6,7 +6,7 @@ public class BugFixing1 {
    //in case of more than one character satisfying the requirement, we need to
    //return the earliest character alphabetically
    String solution(String S) {
-	   
+	   System.out.println("I did this in a branch");
        int[] occurrences = new int[26];
        for (char ch : S.toCharArray()) {
            occurrences[ch - 'a']++;
